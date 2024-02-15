@@ -1,0 +1,140 @@
+@media (max-width: 700px) {
+    *{
+        padding: 0;margin: 0;
+        box-sizing: border-box;
+        // border: 1px solid red;
+    }
+    .hamburger_menu{
+        display: flex;
+    }
+    .nav_cont{
+        padding: 0;
+        .nav_right{
+            display: flex;
+            gap: 12px;
+            img{
+                width: 43px;
+                height: 38px;
+            }
+            h2{
+                font-size: 16px;
+            }
+        }
+    }
+    .nav_cont .nav_left .navlist_cont{
+        display: none;
+    }
+    .the_band .band{
+        flex-direction: column;
+    }
+    .nav_cont .nav_left .btn{
+        display: none;
+    }
+    .footer_cont{
+        flex-direction: column;
+        line-height: 25px;
+        justify-content: center;
+        padding: 0;
+    }
+    .footer_cont p{
+        font-size: 12px;
+    }
+    .footer_cont h4{
+        font-size: 16px;
+    }
+    .read_more{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .the_band .learn_more .read_more .stereo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .classical_cont .next_classical .count_down{
+        flex-direction: column;
+    }
+    .the_band .learn_more{
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+    .drunken_text h1{
+        font-size: 30px;
+        line-height: 34px;
+        padding: 0px;
+    }
+    .drunken .rolling_disc img {
+        width: 300px;
+}
+.drunken{
+    height: auto;
+}
+.drunken .rolling_disc{
+    margin-top: 20px;
+}
+.official-videos .promotion_videos{
+    display: none;
+}
+.official-videos img {
+    width: 650px;
+    margin-top: 40px; 
+}
+.about_us_cont{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.about_us_cont .guiltar {
+    width: auto;
+    height: auto;
+}
+.classical_cont .next_classical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/src/assets/images/brown_background.png) ;
+    gap: 30px;
+    /* padding: 100px 0px; */
+}
+.classical_cont{
+    height: auto;
+}
+.classical_cont .next_classical .count_down .buy_ticket{
+    flex-direction: column;
+}
+.classical_cont .next_classical .classical_text h4{
+    font-size: 16px;
+    line-height: 20px;
+}
+.classical_cont .next_classical img {
+    width: 400px;
+    height: 200px;
+}
+.the_band .band h4{
+    font-size: 20px;
+    line-height: 25px;
+}
+.the_band{
+    padding: 20px;
+}
+.copyright p {
+    font-size: 12px;
+    text-align: center;
+}
+.live_perfomance{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+
+
+

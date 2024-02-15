@@ -1,0 +1,523 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+.hamburger_menu{
+    display: none;
+}
+.drunken {
+    background: url(../src/assets/images/paint_background.png) center 100%;
+    // background-color: #E3D2CA;
+    height: 100vh;
+
+    .rolling_disc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+
+        img {
+            width: 400px;
+        }
+    }
+}
+
+.drunken_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-family: 'Inter';
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+}
+
+.nav_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 180px;
+
+    .nav_right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .nav_left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .btn {
+            width: 120px;
+            height: 40px;
+            border: none;
+            background: #332620;
+            color: #fff;
+            font-family: 'Inter';
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: center;
+            border-radius: 2px;
+
+        }
+
+        .btn:hover {
+            color: #413735;
+            background: #EE9C9A;
+        }
+
+        .navlist_cont {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            .list {
+                ul {
+                    display: flex;
+                    gap: 20px;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            text-decoration: none;
+                            color: #413735;
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-weight: bold;
+                            line-height: 17px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            padding: 10px;
+
+                        }
+
+                        a:hover {
+                            color: #EE9C9A;
+                            border-bottom: solid #EE9C9A;
+                            padding-bottom: 5px;
+                            border-width: 2px 50px;
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.official-videos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../src//assets/images/concert-background.png') ;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    margin-top: -70px;
+    z-index: -1;
+
+    img {
+        width: 650px;
+        margin-top: 400px;
+    }
+
+    .promotion_videos {
+        border: 2px solid #EE9C9A;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        gap: 20px;
+        align-items: center;
+
+        padding: 5px;
+        position: relative;
+        top: -300px;
+
+        p {
+            font-family: 'Inter';
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #EE9C9A;
+        }
+
+        h4 {
+            font-family: 'Inter';
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 44px;
+            width: 290px;
+            color: #fff;
+            // text-align: start;
+        }
+    }
+}
+
+.about_us_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+    background: url('../src/assets/images/music_instruemnt_backgroud.png');
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+
+    .about_us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+
+        // align-items: center; 
+        .promote {
+            color: #EE9C9A;
+        }
+
+        p {
+            font-family: 'Inter';
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #fff;
+        }
+
+        h4 {
+            font-family: 'Inter';
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #fff;
+        }
+
+        .btn_about_us {
+            width: 150px;
+            height: 40px;
+            background: #EE9C9A;
+            border: none;
+            border-radius: 4px;
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0em;
+            color: #413735;
+        }
+    }
+
+    .guiltar {
+        width: 350px;
+    }
+}
+
+.classical_cont {
+
+    background: url('../src/assets/images/under-background.png') center 100%;
+    height: 100vh;
+
+    .next_classical {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: url('../src/assets/images/brown_background.png') center 100%;
+        gap: 30px;
+        // height: 100vh;
+        padding: 100px 0px;
+        img {
+            width: 600px;
+            height: 300px;
+        }
+
+        .classical_text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -150px;
+
+            p {
+                font-family: 'Inter';
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #EE9C9A;
+            }
+
+            h4 {
+                font-family: 'Inter';
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 38px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #fff;
+            }
+        }
+
+        .count_down {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            // padding: 100px 0px;
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // gap: 30px; 
+
+            }
+            .buy_ticket{
+                display: flex;
+                gap: 30px;
+                .time-btn{
+                    width: 120px;
+                    height: 40px;
+                    border: none;
+                    background: #EE9C9A;
+                }
+                P{
+                    font-family: 'Inter';
+                    color: #fff;
+font-size: 12px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+                }
+            }
+            .time {
+                display: flex;
+                flex-direction: column;
+
+                .number {
+                    font-family: 'Inter';
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 0px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #fff;
+                }
+
+                .minutes {
+                    font-family: 'Inter';
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 09px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #EE9C9A;
+
+                }
+            }
+        }
+
+    }
+}
+.the_band{
+    display: flex;
+    flex-direction: column;
+    background: center url('../src/assets/images/white-background.png') ;
+    gap: 30px;
+    padding: 100px;
+    .band{
+        .electronics{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            p{
+                font-family: 'Inter';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #292D32;
+        
+            }
+        }
+        h4{
+            font-family: 'Inter';
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #483830;
+        }
+        display: flex;
+        align-items: center;
+        
+        justify-content: space-between;
+        gap: 100px;
+        img{
+            width: 70px;
+            height: 60px;
+        }
+    }
+    .learn_more{
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+        align-items: center;.read_more{
+            display: flex;
+            flex-direction: column;
+            gap: 30px; .learn_more-btn{
+                width: 120px;
+                height: 40px;
+                text-align: center;
+                border: none;
+                border-radius: 5px;
+                background: #EE9C9A;
+                font-family: 'Inter';
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+
+            }
+            p{
+                font-family: 'Inter';
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+            }
+            .stereo{
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            gap: 20px; h4{
+                font-family: 'Inter';
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+            }
+        }
+        } 
+    }
+}
+.footer-background{
+    display: flex;
+    flex-direction: column;
+    background: url('../src/assets/images/footer_inner.png') ;
+    height: 100vh;
+}
+.footer_cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../src/assets/images/footer-background.png');
+    height: 100%;
+    padding: 100px 200px;
+    color: #fff; h4{
+        font-family: 'Inter';
+font-size: 28px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+    } p{
+        font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+    }
+    .find_us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; .social-media{
+            display: flex;
+            gap: 15px;
+        }
+    }
+    .contact_us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+    }
+    .localization{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 15px;
+    }
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #493B35;
+    border-top: 1px solid #fff;
+    padding: 30px 0px;
+    p{
+        font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #fff;
+span{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #EE9C9A;
+}
+
+    }
+}
