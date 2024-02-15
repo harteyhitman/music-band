@@ -13,6 +13,8 @@ img {
 .drunken {
     background: url(../src/assets/images/paint_background.png) center 100%;
     // background-color: #E3D2CA;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 
     .rolling_disc {
@@ -135,9 +137,11 @@ img {
     flex-direction: column;
     background: url('../src//assets/images/concert-background.png') ;
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     position: relative;
-    margin-top: -70px;
+    margin-top: -100px;
     z-index: -1;
 
     img {
@@ -188,6 +192,8 @@ img {
     padding: 40px;
     background: url('../src/assets/images/music_instruemnt_backgroud.png');
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     z-index: -1;
 
@@ -246,6 +252,8 @@ img {
 
     background: url('../src/assets/images/under-background.png') center 100%;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .next_classical {
         display: flex;
@@ -254,7 +262,9 @@ img {
         align-items: center;
         background: url('../src/assets/images/brown_background.png') center 100%;
         gap: 30px;
-        // height: 100vh;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
         padding: 100px 0px;
         img {
             width: 600px;
@@ -356,6 +366,8 @@ text-align: left;
     flex-direction: column;
     background: center url('../src/assets/images/white-background.png') ;
     gap: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 100px;
     .band{
         .electronics{
@@ -446,6 +458,8 @@ text-align: left;
     flex-direction: column;
     background: url('../src/assets/images/footer_inner.png') ;
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .footer_cont{
     display: flex;
@@ -453,6 +467,8 @@ text-align: left;
     align-items: center;
     background: url('../src/assets/images/footer-background.png');
     height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 100px 200px;
     color: #fff; h4{
         font-family: 'Inter';
