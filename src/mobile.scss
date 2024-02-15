@@ -38,13 +38,28 @@
         flex-direction: column;
         line-height: 25px;
         justify-content: center;
+        align-items: center;
         padding: 0;
+        gap: 30px;
+    }
+    .footer_cont .localization{
+        align-items: center;
     }
     .footer_cont p{
         font-size: 12px;
+        text-align: center;
     }
     .footer_cont h4{
         font-size: 16px;
+        text-align: center;
+    }
+    .footer_cont .find_us{
+        text-align: left;
+        align-items: center;
+    }
+    .footer_cont .contact_us{
+        align-items: center;
+        text-align: center;
     }
     .read_more{
         display: flex;
@@ -83,8 +98,12 @@
     display: none;
 }
 .official-videos img {
-    width: 650px;
-    margin-top: 40px; 
+    width: 500px;
+    height: 500px;
+    margin-top: 100px; 
+}
+.official-videos{
+    height: 100%;
 }
 .about_us_cont{
     flex-direction: column;
@@ -127,8 +146,11 @@
     padding: 20px;
 }
 .copyright p {
-    font-size: 12px;
+    font-size: 8px;
     text-align: center;
+    span{
+        font-size: 8px;
+    }
 }
 .live_perfomance{
     display: flex;

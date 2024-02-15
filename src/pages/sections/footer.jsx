@@ -7,7 +7,9 @@ const Footer = () => {
                 <h4>Find us here</h4>
                 <div className="social-media">
                     {socialMedia.map((media) => (
-                        <img src={media.img} alt="" />
+                        <div key={media.id}>
+                        <img  src={media.img} alt="" />
+                        </div>
                     ))}
                 </div>
             </div>

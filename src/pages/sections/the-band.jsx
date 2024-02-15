@@ -10,7 +10,7 @@ const Theband = () => {
             <div className="band">
                 <h4>The band <br /> in classic uniforms</h4>
                 {electronics.map((elect) => (
-                    <div className="electronics">
+                    <div key={elect.img} className="electronics">
                         <div className="elect_img">
                             <img src={elect.img} alt="" />
                         </div>

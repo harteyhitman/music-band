@@ -32,13 +32,13 @@ export const electronics = [
     },
  
     {
-        id: 1,
+        id: 2,
         img: HalfGuiltar,
         text: 'Lorem ipsum'
     },
  
     {
-        id: 1,
+        id: 3,
         img: Stereo,
         text: 'Lorem ipsum'
     },
@@ -55,15 +55,15 @@ export const socialMedia = [
         img: Facebook
     },
     {
-        id: 1,
+        id: 2,
         img: Google
     },
     {
-        id: 1,
+        id: 3,
         img: X
     },
     {
-        id: 1,
+        id: 4,
         img: Linkedin
     },
 ]
