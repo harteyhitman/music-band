@@ -98,9 +98,9 @@
     display: none;
 }
 .official-videos img {
-    width: 500px;
+    width: 400px;
     height: 500px;
-    margin-top: 100px; 
+    margin: 140px 0px; 
 }
 .official-videos{
     height: 100%;
@@ -109,7 +109,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: auto;
+    background-color: #6B4E46;
+ 
 }
 .about_us_cont .guiltar {
     width: auto;
@@ -125,7 +126,8 @@
     /* padding: 100px 0px; */
 }
 .classical_cont{
-    height: auto;
+    height: 100vh;
+    background-color: #6B4E46;
 }
 .classical_cont .next_classical .count_down .buy_ticket{
     flex-direction: column;
@@ -133,6 +135,9 @@
 .classical_cont .next_classical .classical_text h4{
     font-size: 16px;
     line-height: 20px;
+}
+.classical_cont .next_classical .classical_text{
+    margin-top: 0px;
 }
 .classical_cont .next_classical img {
     width: 400px;

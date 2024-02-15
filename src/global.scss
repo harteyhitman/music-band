@@ -190,8 +190,9 @@ img {
     align-items: center;
     gap: 100px;
     padding: 40px;
-    background: url('../src/assets/images/music_instruemnt_backgroud.png');
-    height: 100vh;
+    background: url('../src/assets/images/music_instruemnt_backgroud.png') center 100%;
+    // height: 100vh;
+    // background-color: #6B4E46;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -245,6 +246,8 @@ img {
 
     .guiltar {
         width: 350px;
+        // height: 100%;
+        // background-color: #6B4E46;
     }
 }
 
