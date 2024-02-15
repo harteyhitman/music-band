@@ -1,22 +1,22 @@
 export const navlist =[
     {
-        id: '#home',
+        id: 'home',
         home: 'Home',
     },
     {
-        id: '#brand',
+        id: 'brand',
         home: 'The brand',
     },
     {
-        id: '#music',
+        id: 'music',
         home: 'Music',
     },
     {
-        id: '#gallery',
+        id: 'gallery',
         home: 'Gallery',
     },
     {
-        id: '#contact',
+        id: 'contact',
         home: 'Contact',
     }
 ]
