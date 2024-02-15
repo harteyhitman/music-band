@@ -4,7 +4,7 @@ import Guiltar from '../../assets/images/musicband-instruments.png'
 
 const Aboutus = () => {
     return (
-        <div className='about_us_cont'>
+        <div id='brand' className='about_us_cont'>
             <div className="about_us">
                 <p className='promote'>Promotion video</p>
                 <h4>We can feel and <br /> play any song</h4>

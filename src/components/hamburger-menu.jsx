@@ -34,7 +34,7 @@ const Hamburgermenu = () => {
                                 <div key={list.id} className="list">
                                     <ul>
                                         <li>
-                                            <a href={`#${list.id}`}>{list.home}</a>
+                                            <a href={`#${list.id}`} onClick={handleCloseModal}>{list.home}</a>
                                         </li>
                                     </ul>
                                 </div>

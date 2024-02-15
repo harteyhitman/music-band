@@ -3,7 +3,7 @@ import Button from '../../components/button'
 
 const Classical = () => {
   return (
-    <div className='classical_cont'>
+    <div id='music' className='classical_cont'>
       <div className="next_classical">
         <div className="classical_text">
           <p>Promotion video</p>

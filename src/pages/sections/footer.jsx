@@ -1,7 +1,7 @@
 import { socialMedia } from "../../data/data"
 const Footer = () => {
     return (
-        <div className="footer-background">
+        <div id="contact" className="footer-background">
             <div className='footer_cont'>
             <div className="find_us">
                 <h4>Find us here</h4>
